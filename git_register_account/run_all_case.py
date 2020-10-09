@@ -12,3 +12,4 @@ if __name__=='__main__':
     # 初审通过
     suit=unittest.defaultTestLoader.discover('./',pattern='*view.py',top_level_dir=None)
     BeautifulReport(suit).report(filename='初审通过测试报告',description='用例执行情况',report_dir='all_case_report')
+    print(123)
